@@ -1,3 +1,89 @@
-body{
-  background-color : black ;
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/fabric-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 40em ;
+  width : 40em ;
+  margin-top: 50px ;
+  background-color: black ;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20em 20em 20em 20em ;
+}
+
+.circle{
+  height: 20em ;
+  width : 20em ;
+  background-color: black ;
+  margin-top: 10em ;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20em 20em 20em 20em ;
+}
+
+.control-item{
+  height: 15em ;
+  width : 15em ;
+  background-color: white ;
+  margin-top: 12.5em ;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15em 15em 15em 15em ;
+}
+
+#red-button{
+  position : absolute ;
+  height: 20em ;
+  width : 20em ;
+  background-color: red ;
+  margin-top: 40px ;
+  margin-left: 40px ;
+  top : 0;
+  left : 0;
+  border-radius: 20em 10px 10px 10px ;
+}
+
+#green-button{
+  position : absolute ;
+  height: 20em ;
+  width : 20em ;
+  background-color: green ;
+  margin-top: 40px ;
+  margin-right: 40px ;
+  top : 0;
+  right: 0;
+  border-radius: 10px 20em 10px 10px ;
+}
+
+#blue-button{
+  position : absolute ;
+  height: 20em ;
+  width : 20em ;
+  background-color: blue ;
+  margin-bottom: 40px ;
+  margin-left: 40px ;
+  bottom : 0;
+  left : 0 ;
+  border-radius: 10px 10px 10px 20em ;
+}
+
+#yellow-button{
+  position : absolute ;
+  height: 20em ;
+  width : 20em ;
+  background-color: yellow ;
+  margin-bottom: 40px ;
+  margin-right: 40px ;
+  bottom : 0 ;
+  right : 0 ;
+  border-radius: 10px 10px 20em 10px ;
 }
