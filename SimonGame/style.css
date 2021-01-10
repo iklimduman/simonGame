@@ -61,12 +61,11 @@ body {
   height: 2em ;
   width : 2em ;
   border-radius: 2em 2em 2em 2em ;
-  background : red;
+  background : rgb(208,53,4);
   position : relative ;
   left : -30px ;
   top : 3px ;
 }
-
 
 #status-text {
   font-family: 'Comfortaa', cursive;
@@ -102,12 +101,29 @@ body {
   position : absolute ;
   height: 20em ;
   width : 20em ;
-  background-color: red ;
+  background-color: rgb(208,53,4) ;
   margin-top: 40px ;
   margin-left: 40px ;
   top : 0;
   left : 0;
   border-radius: 20em 10px 10px 10px ;
+}
+
+.game-button:hover{
+  outline:none ;
+}
+
+.game-button:focus{
+  outline : none ;
+  filter : brightness(200%);
+}
+
+#start-button:focus{
+  outline : none ;
+}
+
+.bright{
+  filter : brightness(200%);
 }
 
 #green-button{
@@ -126,7 +142,7 @@ body {
   position : absolute ;
   height: 20em ;
   width : 20em ;
-  background-color: blue ;
+  background-color: rgb(29,157,200) ;
   margin-bottom: 40px ;
   margin-left: 40px ;
   bottom : 0;
@@ -138,7 +154,7 @@ body {
   position : absolute ;
   height: 20em ;
   width : 20em ;
-  background-color: yellow ;
+  background-color: rgb(237,203,31) ;
   margin-bottom: 40px ;
   margin-right: 40px ;
   bottom : 0 ;

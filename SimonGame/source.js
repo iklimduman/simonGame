@@ -1,4 +1,4 @@
-$(document).keypress(function(event){
-  console.log(event.key);
-  $("h1").text(event.key)  ;
+$("#start-button").click(function(){
+  console.log($("#status-text").text());
+  $("#start-button").addClass("bright");
 })
