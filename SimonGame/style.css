@@ -38,6 +38,64 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 15em 15em 15em 15em ;
+  text-align: center;
+}
+
+#simon{
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+  top : 20px ;
+  font-size: 30px ;
+}
+
+#start-div{
+  height: 2em ;
+  width : 6em ;
+  background-color : black ;
+  position : relative ;
+  top : 25px;
+  left : 10px ;
+}
+
+#start-button{
+  height: 2em ;
+  width : 2em ;
+  border-radius: 2em 2em 2em 2em ;
+  background : red;
+  position : relative ;
+  left : -30px ;
+  top : 3px ;
+}
+
+
+#status-text {
+  font-family: 'Comfortaa', cursive;
+  font-size : 15px ;
+  position : relative ;
+  top : -33px ;
+  left : 15px ;
+  color : white ;
+  filter : brightness(200%);
+  box-shadow : 1px solid black ;
+}
+
+#counter{
+  height: 1.8em ;
+  width : 6em ;
+  background-color : #4A0000 ;
+  border : 5px solid black ;
+  position : relative ;
+  top : -10px ;
+  left : 125px ;
+}
+
+#count{
+  font-family: 'Aldrich', sans-serif;
+  font-size : 25px ;
+  position : relative ;
+  top : -25px ;
+  color : #910000 ;
+  filter : brightness(100%) ;
 }
 
 #red-button{
