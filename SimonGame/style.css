@@ -126,6 +126,17 @@ body {
   filter : brightness(200%);
 }
 
+.addBrightness{
+  animation-name : brightness-animation ;
+  animation-duration : 2s ;
+  animation-iteration-count: 2 ;
+}
+
+@keyframes brightness-animation {
+  50% {filter : brightness(200%);}
+  100% {filter : brightness(50%);}
+}
+
 #green-button{
   position : absolute ;
   height: 20em ;
